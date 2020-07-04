@@ -1,6 +1,6 @@
 **IoT React Reporting Reference Application**
 ==================
-The example IoT React Reporting Reference application implements a simple IoT Reporting application that can be used to display the posted data from the [IoT Device Raspberry Pi Sense HAT](https://github.com/markreha/cloudpi/blob/master/README.md) application. The IoT React Reporting Reference application consumes a REST API published by the [IoT Services Reference](https://github.com/markreha/cloudservices/blob/master/README.md) application. These applications in combination  demonstrate a simple, scalable, Cloud based IoT application. Get the [Cloud Workshop SDK!](https://github.com/markreha/cloudworkshop/blob/master/README.md)
+The example IoT React Reporting Reference application implements a simple IoT Reporting application that can be used to display the posted data from the [IoT Device Raspberry Pi Sense HAT](https://github.com/markreha/cloudpi/blob/master/README.md) application. The IoT React Reporting Reference application consumes a REST API published by the [IoT Services Reference](https://github.com/markreha/cloudservices/blob/master/README.md) application. These applications in combination  demonstrate a simple, scalable, Cloud based IoT application. Get the [Cloud Workshop SDK!](https://github.com/markreha/cloudworkshop/blob/master/README.md) A future revision of this application will include the use of Redux and Server Side Rendering.
 
 Architecture & Technologies
 --------
