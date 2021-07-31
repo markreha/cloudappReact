@@ -14,7 +14,7 @@ class Weather extends Component
 
         // Setup default dates
         var fromDate = new Date();
-        fromDate.setHours(0);
+        fromDate.setHours(-fromDate.getTimezoneOffset()/60);
         fromDate.setMinutes(0);
         fromDate.setSeconds(0);
         fromDate.setMilliseconds(0);
@@ -24,8 +24,8 @@ class Weather extends Component
         this.state = 
         {
             reportType: 0,
-            fromDate: fromDate.toISOString(),
-            toDate: toDate.toISOString(),
+            fromDate: fromDate.toISOString().slice(0, -1),
+            toDate: toDate.toISOString().slice(0, -1),
             deviceId: 0
         }
     }
